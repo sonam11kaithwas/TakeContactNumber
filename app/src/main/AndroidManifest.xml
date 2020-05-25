@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.mycontactnumber.MainActivity"/>
+
+        <!--impelement By kotlin-->
         <activity android:name="com.example.mycontactnumber.ContactActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +23,8 @@
             </intent-filter>
         </activity>
 
+
+        <!--implement by Java-->
         <!-- <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
