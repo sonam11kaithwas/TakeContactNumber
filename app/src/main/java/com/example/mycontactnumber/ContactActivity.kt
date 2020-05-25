@@ -32,6 +32,8 @@ class ContactActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        /***find view's**/
         initializeMyViews()
     }
 
